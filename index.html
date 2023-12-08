@@ -13,16 +13,12 @@
         <input type="text" name="name" class="form-item" placeholder="Name" required/><br>
         <label for="surName" class="label">Surname:</label>
         <input type="text" name="surName" class="form-item" placeholder="Surname" required/><br>
-        <label for="stCode" class="label">Student code:</label> 
-        <input type="text" name="stCode" class="form-item" placeholder="Student code" required/><br>
         
         <div class="grades" id="grades">
-            <span>Student marks:</span>
+            <span>Numbers:</span>
             <input type="number" name="gr1" class="form-item grade" min="1" max="10" value="1"/>
             <input type="number" name="gr2" class="form-item grade" min="1" max="10" value="1"/>
-            <input type="number" name="gr3" class="form-item grade" min="1" max="10" value="1"/>
-            <input type="number" name="gr4" class="form-item grade" min="1" max="10" value="1"/>
-            <input type="number" name="gr5" class="form-item grade" min="1" max="10" value="1"/>
+            
         </div>
         <br>
         <button type="submit" class="calculate-button" id = "calculate-button">Calculate</button>
@@ -32,6 +28,7 @@
     <p class="" id="surName"></p>
     <p class="" id="stCode"></p>
     <p class="" id="marks"></p>
+    <p id="sum"></p>
     <span class="mark" id="mark1"></span><span class="mark" id="mark2"></span><span class="mark" id="mark3"></span><span class="mark" id="mark4"></span><span class="mark" id="mark5"></span>
 
     <p class="" id="bestMark"></p>
